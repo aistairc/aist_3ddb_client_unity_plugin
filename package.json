@@ -1,0 +1,23 @@
+{
+  "name": "com.aist.aist3ddbclient",
+  "version": "1.0.0",
+  "displayName": "AIST 3DDB Client Unity Plugin",
+  "description": "This program is a plugin and sample implementation for accessing the 3D data management system developed by the National Institute of Advanced Industrial Science and Technology (AIST) from Unity.",
+  "unity": "2022.3",
+  "author": {
+    "name": "National Institute of Advanced Industrial Science and Technology (AIST)",
+    "url": "https://www.aist.go.jp/"
+  },
+
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+
+  "samples": [
+    {
+        "displayName": "Sample Scene",
+        "description": "The sample scene is simple.",
+        "path": "Samples~/SampleScene"
+    }
+  ]
+}
