@@ -148,10 +148,6 @@ Cesium for Unity 1.13.0 の動作に必要となるパッケージですが、�
 
    ![Import 3ddb client](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_this.png)
 
-1. **インポートしたソースツリーの `./Samples~/SampleScene/Fonts/Noto_Sans_JP/static/NotoSansJP-Regular SDF.asset.zip` を解凍します。**
-
-   ![Unzip asset](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/unzip_asset.png)
-
 ### サンプルシーンのインポート
 
 - Unity Editor のメニューから、Package Manager を起動し AIST-3DDB-Client-Unity-Plugin を検索します。
