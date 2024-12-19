@@ -4,7 +4,7 @@ AIST 3DDB Client for Unity Plugin は、[国立研究開発法人 産業技術�
 
 基本的な機能は、先に公開している [AIST 3DDB Client](https://github.com/aistairc/aist_3ddb_client) と同等の機能を備えています。
 
-![Operation screen](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/main.png)
+![Operation screen](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/main.png)
 
 ## 動作環境
 
@@ -76,11 +76,11 @@ Unity Hub では `Universal 3D` のテンプレートが該当します。
 
 - Package Managerウィンドウの上部にある「＋」ボタンをクリックして、「Add package from git URL...」を選択します。
 
-  ![Add package from git URL...](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_pkg_01.png)
+  ![Add package from git URL...](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/import_pkg_01.png)
 
 - com.unity.nuget.newtonsoft-json と入力して「Add」ボタンをクリックして当該パッケージを追加します。
 
-  ![Add pakcage](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_pkg_02.png)
+  ![Add pakcage](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/import_pkg_02.png)
 
 #### Splines パッケージ
 
@@ -92,13 +92,13 @@ Cesium for Unity 1.13.0 の動作に必要となるパッケージですが、�
 
 - 左ペインから「Splines」を選択し Install ボタンをクリックします。
 
-  ![Install package](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_pkg_03.png)
+  ![Install package](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/import_pkg_03.png)
 
 ####  Cesium for Unity のインポート
 
 - Project Settings > Package Manager を開きます。 (**これまでの操作にあった Package Manager とは別物ですので注意してください。**)
 
-  ![Setting project](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/setting_project.png)
+  ![Setting project](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/setting_project.png)
 
 - スコープ レジストリに以下の内容を入力して追加する。
 
@@ -108,7 +108,7 @@ Cesium for Unity 1.13.0 の動作に必要となるパッケージですが、�
   Scope(s): com.cesium.unity
   ```
 
-  ![Import cesium for unity](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_cfu_02.png)
+  ![Import cesium for unity](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/import_cfu_02.png)
 
 - Unity Editor のメニューから、Window > Package Manager を起動します。
 
@@ -116,7 +116,7 @@ Cesium for Unity 1.13.0 の動作に必要となるパッケージですが、�
 
 - パッケージリストに「Cesium for Unity」が表示されるので、「Install」ボタンをクリックします。
 
-  ![Install cesium for unity](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_cfu_03.png)
+  ![Install cesium for unity](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/import_cfu_03.png)
 
 **開発時に使用した Cesium for Unity のバージョンは `1.13.0` です。**
 
@@ -146,7 +146,7 @@ Cesium for Unity 1.13.0 の動作に必要となるパッケージですが、�
 
 1. `https://github.com/aistairc/aist_3ddb_client_unity_plugin.git` と入力して「Add」ボタンをクリックしインポートします。
 
-   ![Import 3ddb client](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot/import_this.png)
+   ![Import 3ddb client](https://github.com/aistairc/aist_3ddb_client_unity_plugin/blob/main/screenshot~/import_this.png)
 
 ### サンプルシーンのインポート
 
